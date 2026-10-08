@@ -1,3 +1,3 @@
 @echo off
-powershell.exe -NoProfile -File "%~dp0Stop-Website.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Stop-Website.ps1"
 pause
